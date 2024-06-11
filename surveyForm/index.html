@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Code Camp Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="theForm">
+        <main>
+            <h1 id="title">freeCodeCamp ಸಮೀಕ್ಷೆ ಅರ್ಜಿ</h1>
+            <p id="description">ಈ ವೇದಿಕೆಯನ್ನು ಸುಧಾರಿಸಲು ನಮಗೆ ಸಹಾಯ ಮಾಡಲು ಸಮಯ ತೆಗೆದುಕೊಂಡಿದ್ದಕ್ಕಾಗಿ ಧನ್ಯವಾದಗಳು</p>
+
+            <form action="" id="survey-form" method="post">
+                <fieldset>
+                    <div>
+                        <label id="name-label" for="name">ಹೆಸರು: <input type="text" required id="name" name="name" placeholder="ನಿಮ್ಮ ಹೆಸರನ್ನು ನಮೂದಿಸಿ"></label>
+                    </div>
+                    <div>
+                        <label id="email-label" for="email">ಎಲೆಕ್ಟ್ರಾನಿಕ್ ಅಂಚೆ (Email): <input type="email" id="email" name="email" required placeholder="ನಿಮ್ಮ ಇಮೇಲ್ ಐಡಿ ನಮೂದಿಸಿ"></label>
+                    </div>
+                    <div>
+                        <label id="number-label" for="number">ವಯಸ್ಸು <label class="mini-text">(ಐಚ್ಛಿಕ)</label>: <input type="number" name="age" id="number" min="13" max="120" placeholder="ವಯಸ್ಸು"></label>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <div>
+                        <label for="dropdown">ಯಾವ ಆಯ್ಕೆ ನಿಮ್ಮ ಈಗಿನ ಪಾತ್ರವನ್ನು ಉತ್ತಮವಾಗಿ ವಿವರಿಸುತ್ತದೆ?</label>
+                        <select name="currentRole" id="dropdown">
+                            <option value="0">ನಿಮ್ಮ ಈಗಿನ ಪಾತ್ರವನ್ನು ಆಯ್ದುಕೊಳ್ಳಿ </option>
+                            <option value="1">ವಿದ್ಯಾರ್ಥಿ</option>
+                            <option value="2">ಪೂರ್ಣಾವಧಿಯ ಉದ್ಯೋಗ (Full Time Job)</option>
+                            <option value="3">ಪೂರ್ಣಾವಧಿಯ ಕಲಿಯುವವರು (Full Time Learner)</option>
+                            <option value="4">ಮಾಹಿತಿ ನೀಡಲು ಇಚ್ಛಿಸುವುದಿಲ್ಲ</option>
+                            <option value="4">ಇತರೆ</option>
+                        </select>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <div>
+                        <p>ನೀವು ನಿಮ್ಮ ಸ್ನೇಹಿತರಿಗೆ freeCodeCamp ನ್ನು ಶಿಫಾರಸು ಮಾಡುತ್ತೀರಾ?</p>
+                        <label for="recommend"></label>
+                    
+                        <label for="recommend_definitely"><input class="inline-block" type="radio" name="recommend" id="recommend_definitely" value="recommend_definitely" checked>ಖಂಡಿತವಾಗಿ</label>
+                        <label for="recommend_maybe"><input class="inline-block" type="radio" name="recommend" id="recommend_maybe" value="recommend_maybe">ಬಹುಶಃ</label>
+                        <label for="recommend_notSure"></label><input class="inline-block" type="radio" name="recommend" id="recommend_notSure" value="recommend_notSure">ನನಗೆ ಖಚಿತವಿಲ್ಲ</label>
+                    </div>
+                    
+                    <div>
+                        <p>ಯಾವ ವಿಷಯಗಳನ್ನು ಸುಧಾರಿಸಬೇಕು ಎಂದು ನೀವು ಬಯಸುತ್ತೀರ? <label class="mini-text">(ಅನ್ವಯಿಸುವ ಎಲ್ಲಾ ಆಯ್ಕೆಗಳನ್ನು ಆಯ್ಕೆಮಾಡಿ)</label></p>
+                    
+                        <label for="suggestions_000"><input class="inline-block" type="checkbox" name="suggestions_000" value="0" id="suggestions">ಮುಂಭಾಗದ ಅಭಿವೃದ್ಧಿ ಯೋಜನೆಗಳು (Front-end projects)</label>
+                        <label for="suggestions_001"><input class="inline-block" type="checkbox" name="suggestions_001" value="1" id="suggestions">ಹಿಂಬಾಗದ ಅಭಿವೃದ್ಧಿ ಯೋಜನೆಗಳು (Back-end projects)</label>
+                        <label for="suggestions_002"><input class="inline-block" type="checkbox" name="suggestions_002" value="2" id="suggestions">ಮಾಹಿತಿ ದೃಶ್ಯೀಕರಣ (Data visualization)</label>
+                        <label for="suggestions_003"><input class="inline-block" type="checkbox" name="suggestions_003" value="3" id="suggestions">ಸವಾಲುಗಳು</label>
+                        <label for="suggestions_004"><input class="inline-block" type="checkbox" name="suggestions_004" value="4" id="suggestions">ತೆರೆದ ಮೂಲ ಸಂಪನ್ಮೂಲ ಸಮುದಾಯ (Open Source Community)</label>
+                        <label for="suggestions_005"><input class="inline-block" type="checkbox" name="suggestions_005" value="5" id="suggestions">Gitter ಸಹಾಯ ವೇದಿಕೆಗಳು (Gitter help rooms)</label>
+                        <label for="suggestions_006"><input class="inline-block" type="checkbox" name="suggestions_006" value="6" id="suggestions">ಚಲನಚಿತ್ರಗಳು (Videos)</label>
+                        <label for="suggestions_007"><input class="inline-block" type="checkbox" name="suggestions_007" value="7" id="suggestions">ನಗರ ಸಭೆಗಳು (City Meetups)</label>
+                        <label for="suggestions_008"><input class="inline-block" type="checkbox" name="suggestions_008" value="7" id="suggestions">Wiki</label>
+                        <label for="suggestions_009"><input class="inline-block" type="checkbox" name="suggestions_009" value="7" id="suggestions">ಚರ್ಚಾ ವೇದಿಕೆ (Forum)</label>
+                        <label for="suggestions_00A"><input class="inline-block" type="checkbox" name="suggestions_00A" value="7" id="suggestions">ಹೆಚ್ಚಿನ ತರಬೇತಿಗಳು (Additional Courses)</label>
+                    </div>
+
+                    <div>
+                        <p>ಯಾವುದೇ ಅಭಿಪ್ರಾಯಗಳ ಅಥವಾ ಸಲಹೆಗಳು ಇವೆಯೇ?</p>
+                        <textarea name="comment" id="comment" cols="30" rows="10" placeholder="ನಿಮ್ಮ ಅಭಿಪ್ರಾಯವನ್ನು ಇಲ್ಲಿ ನಮೂದಿಸಿ..."></textarea>
+                    </div>
+                </fieldset>
+
+                <input id="submit" type="submit" value="ಸಲ್ಲಿಸು">
+            </form>
+        </main>
+        <footer>
+    
+        </footer>
+    </div>
+</body>
+</html>
