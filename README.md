@@ -9,7 +9,7 @@ Reference link: [freeCodeCamp responsive web design](https://www.freecodecamp.or
 ⚠️ **Note:** Many pages are written to display in 🟡**kannada**🔴.
 
 1. Learn HTML by Building a Cat Photo App: [catPhotoApp](./catPhotoApp/)
-2. -
+2. Learn Basic CSS by Building a Cafe Menu: [cafeMenu](./cafeMenu/)
 3. -
 4. -
 5. **Certification Project:** [Survey Form](./surveyForm/)
