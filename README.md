@@ -10,6 +10,6 @@ Reference link: [freeCodeCamp responsive web design](https://www.freecodecamp.or
 
 1. Learn HTML by Building a Cat Photo App: [catPhotoApp](./catPhotoApp/)
 2. Learn Basic CSS by Building a Cafe Menu: [cafeMenu](./cafeMenu/)
-3. -
+3. Learn CSS Colors by Building a Set of Colored Markers: [coloredMarkers](coloredMarkers)
 4. -
 5. **Certification Project:** [Survey Form](./surveyForm/)
