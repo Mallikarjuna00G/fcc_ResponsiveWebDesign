@@ -14,3 +14,4 @@ Reference link: [freeCodeCamp responsive web design](https://www.freecodecamp.or
 4. Learn HTML Forms by Building a Registration Form [registrationForm](registrationForm)
 5. **Certification Project:** [Survey Form](./surveyForm/)
 6. Learn the CSS Box Model by Building a Rothko Painting: [rothkoPainting](rothkoPainting)
+7. Learn CSS Flexbox by Building a Photo Gallery: [photoGallery](photoGallery)
