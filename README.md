@@ -16,3 +16,4 @@ Reference link: [freeCodeCamp responsive web design](https://www.freecodecamp.or
 6. Learn the CSS Box Model by Building a Rothko Painting: [rothkoPainting](rothkoPainting)
 7. Learn CSS Flexbox by Building a Photo Gallery: [photoGallery](photoGallery)
 8. Learn Typography by Building a Nutrition Label: [nutritionLabel](nutritionLabel)
+9. Learn Accessibility by Building a Quiz: [quiz](quiz)
