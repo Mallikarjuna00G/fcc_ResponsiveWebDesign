@@ -1,0 +1,15 @@
+#image{
+    max-width: 100%;
+    height: auto;
+}
+
+img{
+    display: block;
+    margin: auto;
+}
+
+figure{
+    display: block;
+    margin: auto;
+    padding: auto;
+}

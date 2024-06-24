@@ -1,0 +1,158 @@
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    color: black;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 80%;
+    min-width: 50%;
+    margin: auto;
+}
+
+header{
+    width: 80%;
+    /* height: 40px; */
+    background: linear-gradient(rgba(6, 6, 226, 0.58), rgba(60, 60, 189, 1.0), rgba(19, 19, 204, 0.58));
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 4px;
+    border: 1px solid blue;
+}
+
+main{
+    margin: 80px 0 0 0;
+    background-color: rgba(0, 0, 200, 0.25);
+    padding: 10px;
+}
+
+h1{
+    text-align: center;
+    color: blue;
+    text-shadow: 0 0 4px white;
+}
+
+p{
+    margin: 14px 1px;
+    text-align: justify;
+}
+
+.place{
+    background: linear-gradient(hsla(120, 40%, 65%, 0.3), hsla(125, 40%, 80%, 0.726), hsla(120, 60%, 60%, 0.626));
+    border-radius: 5px;
+}
+
+#img-main-photo{
+    display: block;
+    margin: 0 auto 5px auto;
+    box-shadow: 0 0 5px 3px blue;
+    padding: 1px;
+}
+
+.imgSet{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
+    max-width: 1400px;
+    margin: 0 auto;
+    gap: 16px;
+}
+
+.imgSet figure{
+    width: 100%;
+    max-width: 350px;
+    /* border: 1px solid black; */
+}
+
+.imgSet img{
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+    /* padding: 1px; */
+}
+
+* figcaption{
+    margin: 1px;
+    font-size: 0.7em;
+    /* overflow: hidden; */
+    text-align: center;
+}
+
+.person{
+    background: linear-gradient(hsla(20, 52%, 74%, 10%), hsla(0, 14%, 58%, 10%), hsla(10, 80%, 50%, 30%));
+    border-radius: 5px;
+}
+
+.note{
+    font-style: italic;
+    font-size: 0.8em;
+}
+
+.note::before{
+    content: "ಮಾಹಿತಿ: ";
+    font-style: bold;
+}
+
+a:hover{
+    cursor: pointer;
+    color: blue;
+}
+
+a::after{
+    content: "\1F517";
+    margin: 0 0 0 4px;
+    text-shadow: 0 0 2px yellowgreen;
+    align-items: center;
+}
+
+li{
+    font-style: italic;
+    font-size: 0.8em;
+    margin: 0 0 0 20px;
+}
+
+/* EMOJIES and ICONS */
+.icon-physical-location{
+    content: url(data:image/webp;base64,UklGRgYBAABXRUJQVlA4IPoAAACwBQCdASocABwAPtE+tFooIigoFAEAGglsALbWIl3mFGgbRYhYAWos25//Dmycd+AjyDTaPAAA/vYJcJJsmIHEln/RBVY9Bcgml+1Osgqw4/xgKn+f5axIPoM014A1DjVJWbuITN/NxW2a/PKSu7gr3WeNv5aSf0HMvCno+Tsh9fUBxsw2Z2p9DRdP6u7IQTnSh/xEY66TmUDfuM8dpYvYdLc8KCqrWhfMO/WLJmcd02mefxDmwz3Oa54M+QGDTLR4cH1t/fkmMFs+KdP3HsplHex2h1otUHD3xdJjy+ZVnNAL81j5lndDLGMJRj48pLq8y4eg5F/oAAAA);
+    margin: 0 -2px 0 2px;
+    height: 1em;
+}
+
+.emoji-baby::after{
+    content: "\1f476";
+}
+
+.emoji-military_helmet::after{
+    content: "\1FA96";
+}
+
+.emoji-british::after{
+    content: "\1F1EC\1F1E7";
+}
+
+.emoji-link::after{
+    content: "\1F517";
+}
+
+.emoji-man-teacher::after{
+    content: "\1F468\200D\1F4BB";
+}
+
+.emoji-school::after{
+    content: "\1F3EB";
+}
+
+.emoji-meditation::after{
+    content: "\1F9D8"
+}
+
+.emoji-goat::after{
+    content: "\1F410"
+}
