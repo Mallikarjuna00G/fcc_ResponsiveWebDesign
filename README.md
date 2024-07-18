@@ -19,3 +19,4 @@ Reference link: [freeCodeCamp responsive web design](https://www.freecodecamp.or
 9. Learn Accessibility by Building a Quiz: [quiz](quiz)
 10. **Certification Project (part 2 of 5):** [Tribute Page](./tributePage/)
 11. Learn More About CSS Pseudo Selectors by Building A Balance Sheet: [balanceSheet](./balanceSheet/)
+12. Learn Intermediate CSS by Building a Cat Painting: [catPainting](./catPainting/)
