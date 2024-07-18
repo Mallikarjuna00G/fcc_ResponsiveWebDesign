@@ -21,3 +21,4 @@ Reference link: [freeCodeCamp responsive web design](https://www.freecodecamp.or
 11. Learn More About CSS Pseudo Selectors by Building A Balance Sheet: [balanceSheet](./balanceSheet/)
 12. Learn Intermediate CSS by Building a Cat Painting: [catPainting](./catPainting/)
 13. Learn Responsive Web Design by Building a Piano: [piano](./piano/)
+14. **Certification Project (part 3 of 5):** [technicalDocumentation](./technicalDocumentation/)

@@ -1,0 +1,51 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::before, ::after {
+    box-sizing: border-box;
+}
+
+/* Navbar */
+#navbar {
+    min-width: 30%;
+    width: 30%;
+    position: fixed;
+    padding: 0 10px;
+    margin: 0;
+    /* border: 1px solid black; */
+}
+
+#navbar header {
+    padding: 2px 19px;
+    margin-bottom: 20px;
+}
+
+.nav-link {
+    display: flex;
+    text-decoration: none;
+    border-top: 1px solid #111111;
+    padding: 8px 8px;
+    color: #000;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* Main-doc */
+#main-doc {
+    min-width: 66%;
+    position: absolute;
+    left: 34%;
+    /* border: 1px solid red; */
+    padding: 0 10px;
+}
+
+/* Media queries */
+@media (min-width: 768px) and (max-width: 1199px) {
+    #navbar {
+        width: 30%;
+    }
+    #main-doc {
+        width: 64%;
+    }
+}
