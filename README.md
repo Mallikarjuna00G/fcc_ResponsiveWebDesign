@@ -23,3 +23,4 @@ Reference link: [freeCodeCamp responsive web design](https://www.freecodecamp.or
 13. Learn Responsive Web Design by Building a Piano: [piano](./piano/)
 14. **Certification Project (part 3 of 5):** [technicalDocumentation](./technicalDocumentation/)
 15. Learn CSS Variables by Building a City Skyline: [citySkyline](./citySkyline/)
+16. Learn CSS Grid by Building a Magazine: [magazine](./magazine/)
