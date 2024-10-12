@@ -22,3 +22,4 @@ Reference link: [freeCodeCamp responsive web design](https://www.freecodecamp.or
 12. Learn Intermediate CSS by Building a Cat Painting: [catPainting](./catPainting/)
 13. Learn Responsive Web Design by Building a Piano: [piano](./piano/)
 14. **Certification Project (part 3 of 5):** [technicalDocumentation](./technicalDocumentation/)
+15. Learn CSS Variables by Building a City Skyline: [citySkyline](./citySkyline/)
