@@ -9,19 +9,19 @@
     --webpage-color1: #e9dbcb;
     --item-color1: #f89f7e;
     --item-color1-border: #f58c67;
+    --item-color2: #e97ee9;
     --header-height: 70px;
     --header-padding: 22px;
     --footer-color: #e0bdaf;
 }
 
-html {
-    /* font-size: 100%; */
-}
-
 body {
     background-color: var(--webpage-color1);
-    width: 100vw;
+    width: 98vw;
+    height: 100vh;
     font-family: sans-serif;
+    margin: auto;
+
 }
 
 #header {
@@ -34,6 +34,7 @@ body {
     grid-template-columns: 1fr 1fr;
     align-items: center;
     padding: 0 var(--header-padding);
+    background-color: var(--webpage-color1);
 }
 
 #header-image {
@@ -61,6 +62,10 @@ h2 {
     font-size: 2.2rem;
 }
 
+h3 {
+    font-size: 1.8rem;
+}
+
 #form {
     display: flex;
     flex-direction: column;
@@ -76,11 +81,13 @@ h2 {
 }
 
 #submit {
+
 }
 
 .clickButton {
     padding: 2px 12px;
-    place-items: center;
+    align-items: center;
+    justify-content: center;
     background: var(--item-color1);
     border: 1px solid var(--item-color1-border);
     font-weight: bold;
@@ -111,7 +118,7 @@ article {
 }
 
 .howItWorks {
-    margin: 20px;
+    margin: 40px 20px;
 }
 
 footer {
@@ -119,10 +126,76 @@ footer {
     background-color: var(--footer-color);
     display: flex;
     flex-direction: column;
+    gap: 8px;
     align-items: end;
     justify-content: end;
     width: 88%;
     margin: auto;
+    margin-top: 18px;
     overflow: hidden;
     padding: 10px;
+}
+
+.footer-nav {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: brown;
+    font-weight: bold;
+}
+
+.pricing {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 18px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #db7575;
+    margin: 10px;
+    padding: 0;
+    justify-content: space-between;
+    align-items: center;
+    height: 24ch;
+    width: 24ch;
+}
+
+.itemName {
+    position: relative;
+    top: 0;
+    width: 100%;
+    background-color: var(--item-color2);
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 6px;
+}
+
+.itemFeatures {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.itemFeatures > li {
+    line-height: 1.4rem;
+    font-size: 0.9rem;
+}
+
+.item > .clickButton {
+    margin-bottom: 6px;
 }
