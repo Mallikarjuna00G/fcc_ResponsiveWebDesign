@@ -37,7 +37,7 @@ body {
     background-color: var(--webpage-color1);
 }
 
-#header-image {
+#header-img {
     height: calc(var(--header-height) - 10px);
 }
 
@@ -101,7 +101,7 @@ h3 {
     font-size: 60px; /* Adjust font size as needed */
 }
 
-.features {
+#features {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -118,11 +118,11 @@ article {
     flex-direction: column;
 }
 
-.howItWorks {
+#howItWorks {
     margin: 40px 20px;
 }
 
-.video {
+#video {
     width: 45vw;
     max-width: 640px;
     aspect-ratio: 16 / 9;
@@ -159,7 +159,7 @@ a:hover {
     font-weight: bold;
 }
 
-.pricing {
+#pricing {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -223,11 +223,11 @@ a:hover {
         height: var(--header-height);
     }
     
-    #header-image {
+    #header-img {
         height: calc(var(--header-height) - var(--header-height)*50/100);
     }
 
-    .video {
+    #video {
         width: 80vw;
     }
     
@@ -253,7 +253,7 @@ a:hover {
         font-size: 40px; /* Adjust font size as needed */
     }
     
-    .howItWorks {
+    #howItWorks {
         margin: 20px 10px;
     }
 }
