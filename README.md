@@ -24,3 +24,4 @@ Reference link: [freeCodeCamp responsive web design](https://www.freecodecamp.or
 14. **Certification Project (part 3 of 5):** [technicalDocumentation](./technicalDocumentation/)
 15. Learn CSS Variables by Building a City Skyline: [citySkyline](./citySkyline/)
 16. Learn CSS Grid by Building a Magazine: [magazine](./magazine/)
+17. **Certification Project (part 4 of 5):** [Product Landing Page](./productLandingPage/)
