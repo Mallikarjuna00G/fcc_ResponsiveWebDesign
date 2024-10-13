@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product Landing Page</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined&icon-names=local_fire_department,local_shipping,local_fire_department">
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined">
 </head>
 <body>
     <header id="header">
@@ -22,9 +22,9 @@
             <label for="email"></label>
             <input type="email" name="email" id="email" placeholder="Enter your e-mail address">
 
-            <input type="submit" value="GET STARTED" id="submit">
+            <input type="submit" value="GET STARTED" id="submit" class="clickButton">
         </form>
-        <div class="features">
+        <div class="features" id="features">
             <article>
                 <div class="icon">
                     <i class="material-symbols-outlined">local_fire_department</i>
@@ -52,9 +52,21 @@
                     <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
                 </div>
             </article>
+        </div>  <!-- features -->
+        <div class="howItWorks">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/y8Yv4pnO7qc" title="Roman Carnival Overture Op. 9 for Five Trombones" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>  <!-- howItWorks -->
+        <div class="pricing">
+
         </div>
-        <video src="https://youtu.be/y8Yv4pnO7qc" id="video"></video>
     </main>
-    <footer></footer>
+    <footer>
+        <nav class="footer-nav">
+            <a href="">Privacy</a>
+            <a href="">Terms</a>
+            <a href="">Contact</a>
+        </nav>
+        <p class="copyright">Copyright 2016, Original Trombones</p>
+    </footer>
 </body>
 </html>

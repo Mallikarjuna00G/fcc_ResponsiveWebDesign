@@ -7,9 +7,11 @@
 
 :root {
     --webpage-color1: #e9dbcb;
-    --item-color1: orangered;
+    --item-color1: #f89f7e;
+    --item-color1-border: #f58c67;
     --header-height: 70px;
     --header-padding: 22px;
+    --footer-color: #e0bdaf;
 }
 
 html {
@@ -74,25 +76,53 @@ h2 {
 }
 
 #submit {
-    padding: 2px 4px;
+}
+
+.clickButton {
+    padding: 2px 12px;
     place-items: center;
     background: var(--item-color1);
-    border: none;
+    border: 1px solid var(--item-color1-border);
     font-weight: bold;
-
+    font-size: large;
+    border-radius: 2px;
 }
 
 .material-symbols-outlined {
     font-family: 'Material Symbols Outlined';
-    font-size: 40px; /* Adjust font size as needed */
+    font-size: 60px; /* Adjust font size as needed */
+}
+
+.features {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 article {
     display: flex;
     flex-direction: row;
+    gap: 30px;
 }
 
 .article-text {
     display: flex;
     flex-direction: column;
+}
+
+.howItWorks {
+    margin: 20px;
+}
+
+footer {
+    height: var(--header-height);
+    background-color: var(--footer-color);
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
+    width: 88%;
+    margin: auto;
+    overflow: hidden;
+    padding: 10px;
 }
