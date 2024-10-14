@@ -56,8 +56,8 @@ header {
 
 #navbar {
     display: flex;
-    justify-content: space-between;
-    gap: 60px;
+    justify-content: end;
+    gap: 20%;
 }
 
 footer {
@@ -192,4 +192,15 @@ p {
     margin: 3rem auto;
     padding: 8px 24px;
     background-color: var(--webpage-color2);
+}
+
+@media only screen and (max-width: 430px) {
+    body {
+        font-size: 1rem;
+        overflow-x: hidden;
+    }
+
+    footer {
+        font-size: 0.7rem;
+    }
 }
