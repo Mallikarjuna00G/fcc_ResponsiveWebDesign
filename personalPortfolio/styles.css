@@ -97,8 +97,60 @@ p {
     font-family: 'Courier New', Courier, monospace;
 }
 
-#projects {
+#projects-section {
     background-color: var(--webpage-color3);
+    display: flex;
+    flex-direction: column;
+    padding: 18px;
+
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+}
+
+#projects-section > h2 {
+    text-decoration: underline;
+    margin: 4rem auto;
+}
+
+#projects {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+    gap: 24px;
+}
+
+.project-tile {
+    height: calc(100vh - 8rem);
+    max-height: 400px;
+    width: calc(100vw - 3rem);
+    max-width: 350px;
+    border: 1px solid var(--webpage-color2);
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0;
+}
+
+.project-tile img {
+    height: 84%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.project-tile a {
+    background-color: var(--webpage-color2);
+    width: 100%;
+    height: 16%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #contact {
@@ -132,6 +184,12 @@ p {
     
     justify-content: space-around;
     align-items: center;
-    gap: 24px;
+    gap: 34px;
     width: 70%;
+}
+
+#showAll {
+    margin: 3rem auto;
+    padding: 8px 24px;
+    background-color: var(--webpage-color2);
 }
